@@ -8,7 +8,7 @@ public class GoogleTest {
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.entrepreneur.com/");
         System.out.println("Title:"+driver.getTitle());
-        Thread.sleep(15000);
+        Thread.sleep(5000);
         driver.quit();
     }
 }
